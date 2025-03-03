@@ -65,7 +65,8 @@ PAGE_HTML = """
             <h2>🔌 API Endpoints disponibles</h2>
             <ul>
                 <li><code>/</code> - Cette page d'accueil</li>
-                <li><code>/api/hello?name=VotreNom</code> - Salutation personnalisée</li>
+                <li><code>/api/hello?name=Thibault</code> - Salutation personnalisée (exemple simple)</li>
+                <li><code>/api/hello?name=Thibault%20%F0%9F%9A%80</code> - Salutation avec caractères spéciaux (encodé en URL)</li>
                 <li><code>/api/time</code> - Heure actuelle au format JSON</li>
             </ul>
         </div>
